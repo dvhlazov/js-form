@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test html/css/js</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
+</head>
+<body>
+    <h2>Fill the form please</h2>
+    <form id="name_form" action="">
+       <label for="username">Nickname</label> <input type="text" name="name" id="username">
+        <fieldset id="checkbox_field">
+            <legend>Choose the answer</legend>
+            <div class="answer">
+               <input type="radio" id="agree" name="option" >
+               <label for="agree">Yes</label>
+            </div>
+            <div class="answer2">
+                <input type="radio" id="not_agree" name="option">
+                <label for="not_agree">No</label>
+            </div>
+            
+        </fieldset>
+        <div class="info">choose "Yes" to accept terms and conditions</div>
+        <button class="btn">Send</button>
+    </form>
+
+<script src="script/main.js"></script>
+</body>
+</html>
